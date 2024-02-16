@@ -1,0 +1,7 @@
+sounds:
+  - id: "sound1"
+    name: "Sound 1"
+    path: "path/to/sound1.wav"
+  - id: "sound2"
+    name: "Sound 3"
+    path: "path/to/sound2.wav"

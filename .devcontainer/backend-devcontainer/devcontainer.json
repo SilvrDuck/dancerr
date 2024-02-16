@@ -1,0 +1,10 @@
+{
+	"name": "Backend container",
+	"dockerComposeFile": ["../../compose.yaml"],
+	"service": "backend",
+	"shutdownAction": "none",
+	"workspaceFolder": "/workspace/dancerr-backend",
+	"features": {
+		"ghcr.io/devcontainers-contrib/features/pdm:2": {}
+	}
+}

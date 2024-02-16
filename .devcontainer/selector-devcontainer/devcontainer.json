@@ -1,0 +1,15 @@
+
+{
+	"name": "Selector Container",
+	"dockerComposeFile": ["../../compose.yaml"],
+	"service": "selector",
+	"shutdownAction": "none",
+	"workspaceFolder": "/workspace/dancerr-selector",
+	"features": {
+		"ghcr.io/devcontainers/features/node:1": {
+			"nodeGypDependencies": true,
+			"version": "lts",
+			"nvmVersion": "latest"
+		}
+	}
+}
